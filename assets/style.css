@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(3, 70, 8);
+}
+.store{
+    width: 1000px;
+    height: auto;
+    margin: 2em 0;
+    background: linear-gradient(120deg, rgb(118, 238, 118), rgb(80, 201, 80));
+    box-shadow:  0 0 5px rgb(190, 255, 190), 
+    0 0 10px rgb(190, 255, 190),
+    0 0 20px rgb(190, 255, 190),
+    0 0 30px rgb(190, 255, 190); 
+    display: flex;
+    padding: 10px;
+}
+.store .cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height:auto;
+}
+.store .card{
+    width: calc(25% - 20px);
+    margin: 10px;
+    background-color: rgb(14, 99, 14);
+    height: 350px;
+}
